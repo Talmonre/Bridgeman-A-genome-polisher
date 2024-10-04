@@ -2,6 +2,19 @@
 
 The Genome Polisher Pipeline is a comprehensive tool for genome assembly polishing using a combination of long and short reads. The pipeline utilizes various tools like Racon, Medaka, and Pilon for iterative polishing to generate high-quality genome assemblies.
 
+## Index
+- [Overview](#overview)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Output](#output)
+- [Resuming the Pipeline](#resuming-the-pipeline)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
 ## Overview
 
 This pipeline is designed to perform sequential rounds of polishing on an input assembly using different tools optimized for specific polishing tasks. It supports the use of long reads (PacBio or ONT) for initial correction and short reads for final polishing, if available.
