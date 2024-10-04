@@ -46,10 +46,10 @@ $ cd repository-name
 ```
 
 ### 2. Set Up Environment
-The pipeline requires Conda and Micromamba for managing the environment and dependencies. To create the environment, run:
+The pipeline requires Conda and Micromamba for managing the environment and dependencies. The dependency list is stored in the config.sh. The script will automatically install Conda, create the environment and install dependencies. However, to create the environment, run:
 
 ```bash
-./scripts/bridgeman_v3.5.1.sh --setup-env
+./scripts/bridgeman_v3.5.1.sh --conda-env genome_correction
 ```
 
 ## Usage
